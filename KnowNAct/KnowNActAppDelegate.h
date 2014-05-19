@@ -6,6 +6,14 @@
 //  Copyright (c) 2014 Nayamode MacMini. All rights reserved.
 //
 
+
+
+
+// Jitendra deore.
+
+
+
+
 #import <UIKit/UIKit.h>
 
 @interface KnowNActAppDelegate : UIResponder <UIApplicationDelegate>
