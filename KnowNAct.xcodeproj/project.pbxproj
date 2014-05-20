@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D47ABB8B192B20E6006A79EA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47ABB8A192B20E6006A79EA /* FirstViewController.m */; };
 		D4B188F2192A277100802013 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B188F1192A277100802013 /* Foundation.framework */; };
 		D4B188F4192A277100802013 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B188F3192A277100802013 /* CoreGraphics.framework */; };
 		D4B188F6192A277100802013 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B188F5192A277100802013 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D47ABB89192B20E6006A79EA /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D47ABB8A192B20E6006A79EA /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		D4B188EE192A277100802013 /* KnowNAct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnowNAct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B188F1192A277100802013 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D4B188F3192A277100802013 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,6 +123,8 @@
 				D4B18906192A277100802013 /* Main_iPad.storyboard */,
 				D4B18909192A277100802013 /* KnowNActViewController.h */,
 				D4B1890A192A277100802013 /* KnowNActViewController.m */,
+				D47ABB89192B20E6006A79EA /* FirstViewController.h */,
+				D47ABB8A192B20E6006A79EA /* FirstViewController.m */,
 				D4B1890C192A277100802013 /* Images.xcassets */,
 				D4B188F8192A277100802013 /* Supporting Files */,
 			);
@@ -257,6 +262,7 @@
 				D4B1890B192A277100802013 /* KnowNActViewController.m in Sources */,
 				D4B188FE192A277100802013 /* main.m in Sources */,
 				D4B18902192A277100802013 /* KnowNActAppDelegate.m in Sources */,
+				D47ABB8B192B20E6006A79EA /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +477,7 @@
 				D4B18925192A277100802013 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4B18926192A277100802013 /* Build configuration list for PBXNativeTarget "KnowNActTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +486,7 @@
 				D4B18928192A277100802013 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
